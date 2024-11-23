@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Light teal background for the page */
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00838f; /* Dark teal color for the header */
+}
+
+.form-control {
+    border: 1px solid #80deea; /* Light teal border for inputs */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #00838f; /* Dark teal border when focused */
+    box-shadow: 0 0 5px rgba(0, 131, 143, 0.5);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #00796b; /* Deep greenish color for labels */
+}
+
+.btn-custom {
+    background-color: #00838f; /* Dark teal color for the button */
+    color: #ffffff; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #006f72; /* Darker teal when hovered */
+}
+
+.form-check-label {
+    font-weight: 500;
+    color: #00796b; /* Greenish color for checkbox labels */
+}
+
+.container {
+    padding: 10px;
+}
+
+/* Additional styling for form controls (checkboxes, radios, selects) */
+.form-check-input {
+    margin-right: 10px;
+}

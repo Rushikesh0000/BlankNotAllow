@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Registration Form</h2>
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Contact -->
+                <div class="mb-3">
+                    <label for="contact" class="form-label">Contact</label>
+                    <input type="text" id="contact" name="contact" class="form-control" placeholder="Enter your contact number" required>
+                </div>
+
+                <!-- Country -->
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country</label>
+                    <select id="country" name="country" class="form-select" required>
+                        <option value="">Select your country</option>
+                        <option value="usa">United States</option>
+                        <option value="india">India</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </div>
+
+                <!-- Gender -->
+                <div class="mb-3">
+                    <label class="form-label">Gender</label><br>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="male" name="gender" value="male" class="form-check-input">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="female" name="gender" value="female" class="form-check-input">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+                </div>
+
+                <!-- Agree -->
+                <div class="mb-3">
+                    <label class="form-label">Do you agree?</label><br>
+                    <div class="form-check">
+                        <input type="checkbox" id="yes" name="agree" value="yes" class="form-check-input">
+                        <label for="yes" class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="no" name="agree" value="no" class="form-check-input">
+                        <label for="no" class="form-check-label">No</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-custom">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
